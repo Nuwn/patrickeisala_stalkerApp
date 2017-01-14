@@ -1,0 +1,40 @@
+{
+    "street": 
+    {
+        "östra fäladen": 
+        {
+            "stars": 
+            { 
+                "tom cruiseship": 
+                {
+                    "img": "/tmp", 
+                    "info":"found him!"
+                },
+                "tompa":
+                {
+                    "img": "/tmp", 
+                    "info":"found him!"
+                }
+            } 
+        },
+        "östra fäladen2": 
+        {
+            "stars": 
+            { 
+                "tom cruiseship": 
+                {
+                    "img": "/tmp", 
+                    "info":"found him!"
+                },
+                "tompa":
+                {
+                    "img": "/tmp", 
+                    "info":"found him!"
+                }
+            } 
+        }   
+    }
+
+
+
+}

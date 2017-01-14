@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <style>
+            body {
+                background-color:#537b4d;
+            }
+        </style>
+        <title>MultiView Plugin - Secondary View</title>
+    </head>
+    <body>
+        <div class=contentWrap>
+                <div id=output> <br>Message from the previous view should be displayed below.  Click the 'Navigate to Parent' button to send your message and navigate to the previous(parent) view </div>
+                <textarea id=txtArea placeholder="Enter message to parent here"></textarea>
+                <div id="btnDismiss" class="btnDiv">Navigate to Parent</div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index2.js"></script>
+    </body>
+</html>

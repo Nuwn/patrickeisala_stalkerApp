@@ -1,0 +1,38 @@
+{
+  "name": "phonegap-plugin-multiview",
+  "version": "1.0.0",
+  "description": "PhoneGap Multiview Plugin",
+  "cordova": {
+    "id": "phonegap-plugin-multiview",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "scripts": {
+    "test": "npm run jshint",
+    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint demo/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/purplecabbage/phonegap-plugin-multiview"
+  },
+  "keywords": [
+    "cordova",
+    "multiview",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "author": "Jesse MacFadyen",
+  "license": "Apache-2.0",
+  "contributors": [
+    {
+      "name": "Sterling Gerritz",
+      "url": "https://github.com/sterlingann"
+    }
+  ],
+  "devDependencies": {
+    "jshint": "^2.9.4"
+  }
+}
